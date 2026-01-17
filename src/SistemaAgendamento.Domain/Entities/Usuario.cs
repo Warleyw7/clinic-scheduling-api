@@ -1,6 +1,6 @@
 using System.Reflection.Metadata;
 
-namespace src.SistemaAgendamento.Domain;
+namespace SistemaAgendamento.Domain.Entities;
 public class Usuario
 {
     public int Id { get; set; }

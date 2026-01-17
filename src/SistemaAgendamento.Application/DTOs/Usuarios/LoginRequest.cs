@@ -1,4 +1,4 @@
-namespace src.SistemaAgendamento.Application.DTOs.Usuarios;
+namespace SistemaAgendamento.Application.DTOs.Usuarios;
 public class LoginRequest
 {
     public string Nome { get; set; } = string.Empty;

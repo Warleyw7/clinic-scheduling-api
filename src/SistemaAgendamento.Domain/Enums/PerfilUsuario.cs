@@ -1,4 +1,4 @@
-namespace src.SistemaAgendamento.Domain;
+namespace SistemaAgendamento.Domain;
 public enum PerfilUsuario
 {
     Admin = 1,

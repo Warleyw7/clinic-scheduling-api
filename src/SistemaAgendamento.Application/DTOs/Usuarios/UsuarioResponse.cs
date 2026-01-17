@@ -1,6 +1,6 @@
-using src.SistemaAgendamento.Domain;
+using SistemaAgendamento.Domain;
 
-namespace src.SistemaAgendamento.Application.DTOs.Usuarios;
+namespace SistemaAgendamento.Application.DTOs.Usuarios;
 public class UsuarioResponse
 {
     public int Id { get; set; }

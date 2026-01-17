@@ -1,6 +1,6 @@
-using src.SistemaAgendamento.Domain;
+using SistemaAgendamento.Domain;
 
-namespace src.SistemaAgendamento.Application.DTOs.Usuarios;
+namespace SistemaAgendamento.Application.DTOs.Usuarios;
 public class CriarUsuarioRequest
 {
     public string Nome { get; set; } = string.Empty;
