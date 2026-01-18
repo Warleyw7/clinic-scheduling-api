@@ -1,4 +1,3 @@
-using SistemaAgendamento.Domain.Enums;
 
 namespace SistemaAgendamento.Domain.Entities;
 public class Agendamento

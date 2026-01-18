@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
       "projectName": "SistemaAgendamento.Domain",
-      "projectPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
+      "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
       "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\obj\\",
+      "outputPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alves\\AppData\\Roaming\\NuGet\\NuGet.Config"

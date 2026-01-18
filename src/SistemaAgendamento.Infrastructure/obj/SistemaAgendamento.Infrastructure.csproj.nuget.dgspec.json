@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj": {}
+    "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj": {
+    "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj",
+        "projectUniqueName": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj",
         "projectName": "SistemaAgendamento.Application",
-        "projectPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj",
+        "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Application\\obj\\",
+        "outputPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alves\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj": {
-                "projectPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj"
+              "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj": {
+                "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj"
               }
             }
           }
@@ -341,14 +341,14 @@
         }
       }
     },
-    "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj": {
+    "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
         "projectName": "SistemaAgendamento.Domain",
-        "projectPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
+        "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\obj\\",
+        "outputPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alves\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -674,14 +674,14 @@
         }
       }
     },
-    "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj": {
+    "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj",
         "projectName": "SistemaAgendamento.Infrastructure",
-        "projectPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Infrastructure\\SistemaAgendamento.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alves\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -696,11 +696,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj": {
-                "projectPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj"
+              "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj": {
+                "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj"
               },
-              "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj": {
-                "projectPath": "C:\\Users\\alves\\SistemaAgendamento-API\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj"
+              "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj": {
+                "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj"
               }
             }
           }
@@ -722,6 +722,16 @@
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[10.0.2, )"
             }

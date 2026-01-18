@@ -1,4 +1,3 @@
-using System.Reflection.Metadata;
 
 namespace SistemaAgendamento.Domain.Entities;
 public class Usuario
