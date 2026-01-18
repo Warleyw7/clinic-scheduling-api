@@ -1,9 +1,9 @@
-using ModuloAPI.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
+using SistemaAgendamento.Infrastructure.Context;
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<AgendaContext>(options =>
+builder.Services.AddDbContext<ClinicaDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
 
 builder.Services.AddControllers();

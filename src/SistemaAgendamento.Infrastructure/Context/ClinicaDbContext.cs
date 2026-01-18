@@ -1,7 +1,7 @@
 using SistemaAgendamento.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace src.SistemaAgendamento.Infrastructure.Context;
+namespace SistemaAgendamento.Infrastructure.Context;
 public class ClinicaDbContext : DbContext
 {
 
