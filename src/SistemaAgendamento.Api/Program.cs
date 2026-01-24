@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "ModuloAPI", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "SistemaAgendamento", Version = "v1" });
 });
 
 var app = builder.Build();
@@ -20,7 +20,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "ModuloAPI v1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "SistemaAgendamento v1");
 });
 
 app.UseHttpsRedirection();

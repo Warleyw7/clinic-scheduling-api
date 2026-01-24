@@ -1,4 +1,6 @@
 
+using SistemaAgendamento.Domain.Enums;
+
 namespace SistemaAgendamento.Application.Dtos.Agendamentos;
 public class AgendamentoResponse
 {

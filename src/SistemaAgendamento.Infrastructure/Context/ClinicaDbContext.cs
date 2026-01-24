@@ -11,5 +11,6 @@ public class ClinicaDbContext : DbContext
     }
 
     public DbSet<Servico> Servicos { get; set; }
-    public DbSet<Servico> Usuario { get; set; }
+    public DbSet<Usuario> Usuarios { get; set; }
+    public DbSet<Agendamento> Agendamentos { get; set; }
 }

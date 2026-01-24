@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using SistemaAgendamento.Infrastructure.Context;
-using SistemaAgendamento.Application.DTOs;
 using SistemaAgendamento.Application.DTOs.Servicos;
-using SistemaAgendamento.Infrastructure.Context;
 
 namespace SistemaAgendamento.Api.Controllers;
 
