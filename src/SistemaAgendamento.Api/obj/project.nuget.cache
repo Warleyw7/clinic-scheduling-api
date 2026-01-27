@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GcjtM9OUwgI=",
+  "dgSpecHash": "jvH+hvXEaeY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Api\\SistemaAgendamento.Api.csproj",
+  "projectFilePath": "C:\\Users\\alves\\source\\repos\\clinic-scheduling-api\\src\\SistemaAgendamento.Api\\SistemaAgendamento.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alves\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\alves\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

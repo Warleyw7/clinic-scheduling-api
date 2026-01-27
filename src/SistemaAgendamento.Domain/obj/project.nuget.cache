@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r1tYtozTZ9s=",
+  "dgSpecHash": "iGwc3pXFt+A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
+  "projectFilePath": "C:\\Users\\alves\\source\\repos\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,30 @@
 using Microsoft.AspNetCore.Mvc;
+using SistemaAgendamento.Domain.Entities;
 using SistemaAgendamento.Infrastructure.Context;
 
 namespace SistemaAgendamento.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class UsuarioController : ControllerBase
+public class UsuarioController(ClinicaDbContext context) : ControllerBase
 {
-    private readonly ClinicaDbContext _context;
+    private readonly ClinicaDbContext _context = context;
 
-    public UsuarioController(ClinicaDbContext context)
+    [HttpGet("{Id:int}")]
+    public async Task<IActionResult> ObterPorId([FromRoute] int id) 
     {
-        _context = context;
+        var usuario = _context.Usuarios.FindAsync(id);
+        if(usuario == null)
+            return NotFound();
+
+        return Ok(usuario);
     }
 
+    [HttpPost]
+    public async Task<IActionResult> Create([FromBody] Usuario usuario) 
+    {
+        _context.Add(usuario);
+        _context.SaveChanges();
+        return Ok();
+    }
 }

@@ -27,32 +27,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alves\\.nuget\\packages\\": {}
+    "C:\\Users\\alves\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj",
+      "projectUniqueName": "C:\\Users\\alves\\source\\repos\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj",
       "projectName": "SistemaAgendamento.Application",
-      "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj",
+      "projectPath": "C:\\Users\\alves\\source\\repos\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\SistemaAgendamento.Application.csproj",
       "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\obj\\",
+      "outputPath": "C:\\Users\\alves\\source\\repos\\clinic-scheduling-api\\src\\SistemaAgendamento.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\alves\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj": {
-              "projectPath": "C:\\Users\\alves\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj"
+            "C:\\Users\\alves\\source\\repos\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj": {
+              "projectPath": "C:\\Users\\alves\\source\\repos\\clinic-scheduling-api\\src\\SistemaAgendamento.Domain\\SistemaAgendamento.Domain.csproj"
             }
           }
         }
@@ -88,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

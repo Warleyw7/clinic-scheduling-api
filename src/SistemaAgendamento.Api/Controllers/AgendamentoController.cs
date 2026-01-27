@@ -1,24 +1,30 @@
 using Microsoft.AspNetCore.Mvc;
+using SistemaAgendamento.Domain.Entities;
 using SistemaAgendamento.Infrastructure.Context;
 
 namespace SistemaAgendamento.Api.Controllers;
 [ApiController]
-[Route("ApiController")]
-public class AgendamentoController : ControllerBase
+[Route("Agendamento")]
+public class AgendamentoController(ClinicaDbContext context) : ControllerBase
 {
-    private readonly ClinicaDbContext _context;
+    private readonly ClinicaDbContext _context = context;
 
-    public AgendamentoController(ClinicaDbContext context)
+    [HttpGet("{Id:int}")]
+    public async Task<IActionResult> ObterPorId([FromRoute]int id)
     {
-        _context = context;
-    }
-
-    [HttpGet("{ObterPorId:int}")]
-    public async Task<IActionResult> ObterPorId([FromBody]int id)
-    {
-        var Agendamento = await _context.Servicos.FindAsync(id);
-        if(Agendamento == null)
+        var agendamento = await _context.Agendamentos.FindAsync(id);
+        if(agendamento == null)
             return NotFound();
+        return Ok();
+    }
+    [HttpPost]
+    public async Task<IActionResult> Create([FromBody]Agendamento agendamento)
+    {
+        if (agendamento == null)
+            return NotFound();
+
+        _context.Add(agendamento);
+        _context.SaveChanges();
         return Ok();
     }
 }

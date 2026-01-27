@@ -6,27 +6,22 @@ namespace SistemaAgendamento.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class ServicoController : ControllerBase
+public class ServicoController(ClinicaDbContext context) : ControllerBase
 {
-    private readonly ClinicaDbContext _context;
+    private readonly ClinicaDbContext _context = context;
 
-    public ServicoController( ClinicaDbContext context)
+    [HttpGet("{Id:int}")]
+    public async Task<IActionResult> ObterPorId([FromRoute]int id)
     {
-        _context = context;
-    }    
-
-    [HttpGet("{ObterPorId}")]
-    public IActionResult ObterPorId(int id)
-    {
-        var servico = _context.Servicos.Find(id);
-        if(servico == null )
+        var servico = _context.Servicos.FindAsync(id);
+        if (await servico == null)
             return NotFound();
 
         return Ok(servico);
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create([FromBody] CriarServicoRequest servico)
+    public async Task<IActionResult> Create([FromBody]CriarServicoRequest servico)
     {
         if (string.IsNullOrWhiteSpace(servico.Nome))
             return BadRequest("Nome é obrigatório.");
