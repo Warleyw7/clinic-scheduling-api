@@ -12,8 +12,8 @@ using SistemaAgendamento.Infrastructure.Context;
 namespace SistemaAgendamento.Infrastructure.Migrations
 {
     [DbContext(typeof(ClinicaDbContext))]
-    [Migration("20260119190747_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260127222807_AjustaPrecisaoPreco")]
+    partial class AjustaPrecisaoPreco
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -92,7 +92,8 @@ namespace SistemaAgendamento.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("Preco")
+                    b.Property<decimal>("Preco")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using SistemaAgendamento.Domain.Entities;
+using SistemaAgendamento.Application.DTOs.Agendamentos;
+using SistemaAgendamento.Application.DTOs.Usuarios;
 using SistemaAgendamento.Infrastructure.Context;
 
 namespace SistemaAgendamento.Api.Controllers;
@@ -21,7 +22,7 @@ public class UsuarioController(ClinicaDbContext context) : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create([FromBody] Usuario usuario) 
+    public async Task<IActionResult> Create([FromBody] CriarUsuarioRequest usuario) 
     {
         _context.Add(usuario);
         _context.SaveChanges();
